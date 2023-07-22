@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/uikit.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/uikit.js"></script>
+    <script src="js/uikit-icons.js"></script>
+
+    <title>Portfolio</title>
+    <script>
+        function sendEmail() {
+            var name = document.getElementById("name").value;
+            var subject = document.getElementById("subject").value;
+            var email = "mousamiredddy@gmail.com";
+    
+            var mailtoLink = "mailto:" + email + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent("Name: " + name + "\n\nSubject: " + subject);
+    
+            window.location.href = mailtoLink;
+        }
+    </script>
+</head>
+<body>
+<!-- Navigation Bar -->
+    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    
+    <div class="uk-navbar-left">
+        <a href="" class="uk-navbar-item uk-logo uk-light">KARRI MOUSAMI REDDY</a>
+    </div>
+    <div class="uk-navbar-right">
+
+        <ul class="uk-navbar-nav uk-light">
+            <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll>Projects</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="#Education" uk-scroll>Education</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="#contact" uk-scroll>Contact</a></li>
+        </ul>
+
+    </div>
+</nav>
+<!-- Navigation Bar Ends  -->
+
+<!-- Navigation Bar Mobile -->
+<nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    
+    <div class="uk-navbar-left">
+        <a href="" class="uk-navbar-item uk-logo uk-light">KARRI MOUSAMI REDDY</a>
+    </div>
+    <div class="uk-navbar-right">
+
+        <ul class="uk-navbar-nav uk-light">
+            <li><button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button></li>
+
+        </ul>
+
+    </div>
+</nav>
+
+<div id="offcanvas-nav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+            <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
+            <li class="uk-active"><a href="#about" uk-scroll>About</a></li>
+            <li class="uk-active"><a href="#projects" uk-scroll>Projects</a></li>
+            <li class="uk-active"><a href="#Education" uk-scroll>Education</a></li>
+            <li class="uk-active"><a href="#contact">Contact</a></li> 
+
+        </ul>
+
+
+
+
+    </div>
+</div>
+
+<!-- Navigation Bar Mobile Ends -->
+<!-- Home -->
+<section class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+    <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">I'm MOUSAMI REDDY, a Game developer, <br>3d modeler, and an UI/UX designer.</h1>
+    <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About Me</a>
+
+
+</section>
+
+<!-- Home Ends -->
+<br>
+
+
+<hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
+
+<!-- About Me -->
+<section id="about" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+<h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
+<!-- Change here to ur paragraph -->
+<p class="uk-margin-xlarge-left uk-margin-xlarge-right">I am passionate about creating immersive and engaging games. I have experience with game engines like <span style="font-weight: bold; color: #fff;">Unity & Unreal Engine</span></p>
+    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">I am excited to bring my technical skills and creativity to a team of game developers and contribute to the creation of innovative games. And i was good at Blender & Figma.</p>
+    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">Here are a few tools & technologies I’ve been working with:</p>
+    <p class="uk-margin-xlarge-left uk-margin-xlarge-right" style="font-weight: bold; color: #fff;">1.Unity</p>
+    <p class="uk-margin-xlarge-left uk-margin-xlarge-right" style="font-weight: bold; color: #fff;">2.Unreal Engine</p>
+    <p class="uk-margin-xlarge-left uk-margin-xlarge-right" style="font-weight: bold; color: #fff;">3.Blender</p>
+    <p class="uk-margin-xlarge-left uk-margin-xlarge-right" style="font-weight: bold; color: #fff;">4.Figma</p>
+    <p class="uk-margin-xlarge-left uk-margin-xlarge-right" style="font-weight: bold; color: #fff;">5.Photoshop</p>
+    <p class="uk-margin-xlarge-left uk-margin-xlarge-right" style="font-weight: bold; color: #fff;">6.Python</p>
+    <p class="uk-margin-xlarge-left uk-margin-xlarge-right" style="font-weight: bold; color: #fff;">7.C++</p>
+    <p class="uk-margin-xlarge-left uk-margin-xlarge-right" style="font-weight: bold; color: #fff;">8.C#</p>
+<a href="https://github.com/mousamireddy" class="uk-margin-xlarge-left uk-light uk-button-text" uk-icon="github"></a> &nbsp;<a href="https://www.linkedin.com/in/mousami-karri-155332217/" class=" uk-light uk-button-text" uk-icon="linkedin"></a>
+
+<!-- About Me Ends -->
+
+
+
+
+</section>
+
+<!-- Projects Section -->
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+<section id="projects" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+<h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
+<p class="uk-margin-xlarge-left">Projects that i've been working on</p>
+
+<div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+    <!-- Change all of this to ur projects -->
+    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+        <h4>Flash (2D Game)</h4>
+        <p>Designed and developed a 2D game using
+            unity and photoshop.</p>
+        <a class="uk-button-text uk-text-decoration-none" href="https://github.com/mousamireddy">
+            <span uk-icon="icon: link">
+            </span> Website Link </a>
+        </div>
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+            <h4>EGG BREAKER</h4>
+            <p>Completed a capstone project in 3D gaming
+                using unity on the concept of EGG BREAKER.</p>
+            <a class="uk-button-text uk-text-decoration-none" href="https://github.com/mousamireddy">
+                <span uk-icon="icon: link">
+                </span> Website Link </a>
+            </div>
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+            <h4>AR Resume</h4>
+            <p>It's is a undergoing project present I am working on.</p>
+            <a class="uk-button-text uk-text-decoration-none" href="https://github.com/mousamireddy">
+                <span uk-icon="icon: link">
+                </span> Website Link </a>
+            </div></div>
+    <br>
+
+
+</section>
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+</div>
+<!-- Projects Section Ends -->
+
+<!-- Education Section -->
+<section id="Education" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+    <h3 class="uk-margin-xlarge-left uk-light">Education</h3>
+    <p class="uk-margin-xlarge-left">My Education Details</p>
+
+    <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body">
+            <h4>Aditya college of engineering and technology</h4>
+            <p>Information technology / B. Tech</p>
+            <div class="year-section">
+                <h5>Year of Study:</h5>
+                <p style="font-weight: bold; color: #555; margin-top: 10px;">2020-2024</p>
+            </div>
+        </div>
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body">
+            <h4>Aditya junior college</h4>
+            <p>Intermediate</p>
+            <div class="year-section">
+                <h5>Year of Study:</h5>
+                <p style="font-weight: bold; color: #555; margin-top: 10px;">2018-2020</p>
+            </div>
+        </div>
+    </div>
+    <br>
+</section>
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+</div>
+
+<!-- Education Section Ends -->
+
+<!-- Contact Section -->
+<section id="contact" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+    <h3 class="uk-margin-xlarge-left uk-light">Contact</h3>
+    <p class="uk-margin-xlarge-left">Get in touch with me</p>
+    <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body">
+            <h4>Name:</h4>
+            <input type="text" id="name" class="uk-input" placeholder="Enter your name">
+        </div>
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body">
+            <h4>Subject:</h4>
+            <input type="text" id="subject" class="uk-input" placeholder="Enter your subject">
+        </div>
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body">
+            <button class="uk-button uk-button-secondary uk-button-large uk-background-black uk-text-white" onclick="sendEmail()">Email Me</button>
+        </div>
+    </div>
+    <br>
+</section>
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+<!-- Contact Section Ends -->
+
+</body>
+</html>
